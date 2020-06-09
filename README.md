@@ -89,6 +89,9 @@ The glyphs that I edit to make it support Jawi alphabet:
   - Glyph is for compatibility purposes.
   - In real life handwriting, ڬ was never used in old writing, and it is not used unless for stylistic choice in new writing or used by mistake by people who learnt Jawi using digital tools created in those time when ݢ is not accessible on keyboard, it should always be ݢ in actual writing.
   - ڬ is not formally recognized as a letter in Malay.
+- Add glyph for Jawi Tilde (~) at U+007E, known in Unicode as Tilde, used in Malay to denote elongated sound or act as subtitution marker.
+  - To ensure it still work as normal tilde outside of Jawi, only variant or joiner will be added instead of completely replacing the glyph.
+  - If there is Jawi letter before tilde, Jawi tilde will be displayed. Otherwise, normal tilde will be displayed.
 
 Some Arabic fonts had even less glyph coverage and those need more works to do including:
 
@@ -98,6 +101,10 @@ Some Arabic fonts had even less glyph coverage and those need more works to do i
 - Add glyph for Jawi letter YE (ى) at U+0649, known in Unicode as Arabic Letter Alef Maksura, used in Malay for the final sound /ə/.
 - Add glyph for Jawi letter ALIF WITH HAMZAH (أ) at U+0623, known in Unicode as Arabic Letter Alef with Hamza Above, used as a part of diphtongs that can't be used with standalone three quarter hamzah nor without any hamzah. Example: أيمن (aiman) is different from اءيمن (a'iman) and ايمن (iman).
   - See image version below <br/> ![aiman](img/github/aiman.png)
+- Add glyph for Jawi Opening Quotation Mark (”) at U+201D, known in Unicode as Right Double Quotation Mark.
+- Add glyph for Jawi Closing Quotation Mark (‟) at U+201F, known in Unicode as Double High-Reversed-9 Quotation Mark.
+- Add glyph for Jawi Opening Single Quotation Mark (’) at U+2019, known in Unicode as Right Single Quotation Mark.
+- Add glyph for Jawi Closing Single Quotation Mark (‛) at U+201B, known in Unicode as Single High-Reversed-9 Quotation Mark.
 
 For compatibility reason, a few more glyphs will also be checked and added if they don't exist:
 
@@ -118,6 +125,10 @@ For compatibility reason, a few more glyphs will also be checked and added if th
   - This was used in some area to spell Sundanese and Javanese words in Malay.
   - Spelt as TH in Rumi, sound like /tʰ/.
   - Currently in use in Pegon script in Indonesia, Pegon script is based on Jawi.
+- Add glyph for non-Jawi punctuation mark known in Unicode as Reversed Tilde (∽) at U+223D.
+  - Glyph added for compatibility reason.
+  - Some minority people used U+223D for tilde as it looked more similar to Jawi tilde compared to U+007E, but the character is supposed to be part of mathematical operation instead of punctuation.
+  - U+007E will have the glyph from U+223D as a variant and joiner so it show up correctly when used in Jawi.
 
 All other letters should already exist in common Arabic fonts, including one deprecated letter:
 - Jawi letter OLD KAF (ك) at U+0643, known in Unicode as Arabic Letter Kaf, formerly used in Malay for the sound /k/ when Arabic Letter Keheh (ک) at U+06A9 was not accessible on keyboard.

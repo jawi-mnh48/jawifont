@@ -137,4 +137,13 @@ All other letters should already exist in common Arabic fonts, including one dep
   - ك is not formally recognized as a letter in Malay.
   - ك is called as Arabic Kaf by Malays, as opposed to just Kaf, because Kaf in Malay is ک.
 
-Full table can be read from [here](https://jawi.mnh48.moe/jawifont/en/jawitable.html)
+Full table can be read at [here](https://jawi.mnh48.moe/jawifont/en/jawitable.html)
+
+
+## What is the license?
+
+All edited font files and the generated FontForge files are licensed the same as the license of the original font files, check the directory of the fonts for the exact license.
+
+The website theme is temporarily [Midnight](https://github.com/mattgraham/midnight) by [mattgraham](https://mobile.twitter.com/mattgraham) available under MIT.
+
+All other contents in the repository and corresponding website are released under The MIT License.

@@ -873,6 +873,24 @@ Listed here are the letters used as part of Malay language, formerly and current
       <td>Used in place of Jawi Ga (ݢ) when system<br />does not support the actual letter.<br />Obsolete, use <a href="#letter-ga">Jawi Letter Ga</a> instead.</td>
     </tr>
     <tr>
+      <td><span lang="ms-Arab">ࢴ</span></td>
+      <td>U+08B4</td>
+      <td>Arabic Letter Kaf<br />with Dot Below</td>
+      <td>Used by Indonesians when trying to write Malay,<br />mostly influenced by their Pegon script system that use it for G.<br />Please properly use <a href="#letter-ga">Jawi Letter Ga</a> instead when writing Malay.</td>
+    </tr>
+    <tr>
+      <td><span lang="ms-Arab">ݣ</span></td>
+      <td>U+0763</td>
+      <td>Arabic Letter Keheh<br />with Thrre Dots Above</td>
+      <td>Used in old Malay as alternative to letter Ga (ݢ).<br />Obsolete, please properly use <a href="#letter-ga">Jawi Letter Ga</a> instead.</td>
+    </tr>
+    <tr>
+      <td><span lang="ms-Arab">گ</span></td>
+      <td>U+06AF</td>
+      <td>Arabic Letter Gaf</td>
+      <td>Used in old Malay as alternative to letter Ga (ݢ).<br />Obsolete, please properly use <a href="#letter-ga">Jawi Letter Ga</a> instead.</td>
+    </tr>
+    <tr>
       <td><span lang="ms-Arab">ٴ</span></td>
       <td>U+0674</td>
       <td>Arabic Letter High Hamza</td>
@@ -930,7 +948,7 @@ Listed here are the letters used as part of Malay language, formerly and current
       <td><span lang="ms-Arab">ۑ</span></td>
       <td>U+06D1</td>
       <td>Arabic Letter Yeh<br />with Three Dots Below</td>
-      <td>Not exist in Malay but used by some people<br />in place of Letter Ye (ى) to differentiate<br />from Letter Ya (ي), use <a href="#letter-ye">Jawi Letter Ye</a> instead.</td>
+      <td>Not exist in Malay but used by some people<br />in place of Letter Ye (ى) to differentiate<br />from Letter Ya (ي), use <a href="#letter-ye">Jawi Letter Ye</a> instead.<br />Also used by Indonesians when trying to write Malay,<br />mostly influenced by their Pegon script system that use it for NY.<br />Please properly use <a href="#letter-nya">Jawi Letter Nya</a> instead when writing Malay</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">آ</span></td>
@@ -947,3 +965,100 @@ Listed here are the letters used as part of Malay language, formerly and current
   </table>
 </div>
 
+## Additional characters for Pegon
+
+While the fonts are mainly for Jawi script, I decided to also include support for Pegon script so that the same font can also be used by Indonesians. Plus, there has been saying that Pegon derived from Jawi, so I should support them as someone who use their ancestor Jawi.
+
+These are the additional characters and markings used in Pegon script, others are already covered by Jawi script:
+
+<div class="table_wrapper">
+  <table>
+    <tr>
+      <th>Letter</th>
+      <th>Unicode<br />Codepoint</th>
+      <th>Unicode<br />Name</th>
+      <th>Usage</th>
+    </tr>
+    <tr>
+      <td><span lang="id-Arab">ۑ</span></td>
+      <td>U+06D1</td>
+      <td>Arabic Letter Yeh<br />with Three Dots Below</td>
+      <td>Used for letter NY in Sundanese.</td>
+    </tr>
+    <tr>
+      <td><span lang="id-Arab">ࢴ</span></td>
+      <td>U+08B4</td>
+      <td>Arabic Letter Kaf<br />with Dot Below</td>
+      <td>Used for letter G in Javanese.</td>
+    </tr>
+    <tr>
+      <td><span lang="id-Arab">ࢍ</span></td>
+      <td>U+088D</td>
+      <td>Arabic Letter Keheh<br />with
+Two Dots Vertically Below</td>
+      <td>Used for letter G in Sundanese.</td>
+    </tr>
+    <tr>
+      <td><span lang="id-Arab">ڎ</span></td>
+      <td>U+068E</td>
+      <td>Arabic Letter Dul</td>
+      <td>Used for letter DH on unsupported system.</td>
+    </tr>
+    <tr>
+      <td><span lang="id-Arab">ڊ</span></td>
+      <td>U+068A</td>
+      <td>Arabic Letter Dal<br />with Dot Below</td>
+      <td>Used for letter DH on supported system.</td>
+    </tr>
+    <tr>
+      <td><span lang="id-Arab">ࢮ</span></td>
+      <td>U+08AE</td>
+      <td>Arabic Letter Dal<br />with Three Dots Below</td>
+      <td>Used as alternative for letter DH on supported system.</td>
+    </tr>
+    <tr>
+      <td><span lang="id-Arab">ڟ</span></td>
+      <td>U+069F</td>
+      <td>Arabic Letter Tah</td>
+      <td>Used for letter TH on unsupported system.</td>
+    </tr>
+    <tr>
+      <td><span lang="id-Arab">ࢋ</span></td>
+      <td>U+088B</td>
+      <td>Arabic Letter Tah<br />with Dot
+Below</td>
+      <td>Used for letter TH on supported system.</td>
+    </tr>
+    <tr>
+      <td><span lang="id-Arab">ࢌ</span></td>
+      <td>U+088C</td>
+      <td>Arabic Letter Tah<br />with Three Dots Below</td>
+      <td>Used as alternative for letter TH on supported system.</td>
+    </tr>
+    <tr>
+      <td><span lang="id-Arab">َ</span></td>
+      <td>U+064E</td>
+      <td>Arabic Fatha</td>
+      <td>Used for vowel A (when next character is not YA/ي or WAU/و),<br />vowel E (when next character is YA/ي),<br />or vowel O (when next character is WAU/و).</td>
+    </tr>
+    <tr>
+      <td><span lang="id-Arab">ِ</span></td>
+      <td>U+0650</td>
+      <td>Arabic Kasra</td>
+      <td>Used for vowel I.</td>
+    </tr>
+    <tr>
+      <td><span lang="id-Arab">ُ</span></td>
+      <td>U+064F</td>
+      <td>Arabic Damma</td>
+      <td>Used for vowel U.</td>
+    </tr>
+    <tr>
+      <td><span lang="id-Arab">ٓ</span></td>
+      <td>U+0653</td>
+      <td>Arabic Maddah Above</td>
+      <td>Used for vowel Ə.</td>
+    </tr>
+  </table>
+</div>
+    

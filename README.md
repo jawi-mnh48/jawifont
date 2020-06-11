@@ -119,12 +119,18 @@ For compatibility reason, a few more glyphs will also be checked and added if th
   - Glyph added for compatibility reason.
   - This was used in some area to spell Sundanese and Javanese words in Malay.
   - Spelt as DH in Rumi, sound like /ɖʱ/.
-  - Currently in use in Pegon script in Indonesia, Pegon script is based on Jawi.
+  - Currently in use in Pegon script in Indonesia with the name Dha, Pegon script is based on Jawi.
 - Add glyph for non-Jawi letter known in Unicode as Arabic Letter Tah with Three Dots Above (ڟ) at U+069F.
   - Glyph added for compatibility reason.
   - This was used in some area to spell Sundanese and Javanese words in Malay.
   - Spelt as TH in Rumi, sound like /tʰ/.
-  - Currently in use in Pegon script in Indonesia, Pegon script is based on Jawi.
+  - Currently in use in Pegon script in Indonesia with the name Tha, Pegon script is based on Jawi.
+- Add glyph for non-Jawi letter known in Unicode as Arabic Letter Kaf with Dot Below (ࢴ) at U+08B4.
+  - Glyph added for compatibility reason.
+  - This was used in some area to spell Sundanese and Javanese words containing letter G in Malay.
+  - Spelt as G in Rumi, sound like /g/.
+  - Currently in use in Pegon script in Indonesia with the name Gaf, Pegon script is based on Jawi.
+  - For Jawi users, please use the proper letter Ga at U+0762 (ݢ) instead of this.
 - Add glyph for non-Jawi punctuation mark known in Unicode as Reversed Tilde (∽) at U+223D.
   - Glyph added for compatibility reason.
   - Some minority people used U+223D for tilde as it looked more similar to Jawi tilde compared to U+007E, but the character is supposed to be part of mathematical operation instead of punctuation.
@@ -137,7 +143,9 @@ All other letters should already exist in common Arabic fonts, including one dep
   - ك is not formally recognized as a letter in Malay.
   - ك is called as Arabic Kaf by Malays, as opposed to just Kaf, because Kaf in Malay is ک.
 
-Full table can be read at [here](https://jawi.mnh48.moe/jawifont/en/jawitable.html)
+I'm also adding support for Pegon script as well, check the last table on the full list of tables.
+
+Full list of tables can be read at [here](https://jawi.mnh48.moe/jawifont/en/jawitable.html)
 
 
 ## What is the license?

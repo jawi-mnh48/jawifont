@@ -1,0 +1,10 @@
+StartChar: uni0645.medi_KafMemAlf
+Encoding: 68665 -1 3413
+Width: 37
+Flags: HW
+AnchorPoint: "TashkilAbove" 107 801 basechar 0
+AnchorPoint: "TashkilBelow" 73 -327 basechar 0
+LayerCount: 3
+Fore
+Refer: 368 -1 N 1 0 0 1 0 0 3
+EndChar

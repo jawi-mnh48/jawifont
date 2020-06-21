@@ -1,0 +1,16 @@
+DOCUMENTATION
+Scheherazade
+========================
+
+This file describes the documentation files included with the Scheherazade 
+font. This information should be distributed along with the 
+Scheherazade font and any derivative works.
+
+Primary documentation for the Scheherazade font is on the Scheherazade 
+website (http://scripts.sil.org/Scheherazade).
+
+The Scheherazade-features.pdf file illustrates the use of OpenType and 
+Graphite features.
+
+The Scheherazade-features.odt file illustrates the use of OpenType and 
+Graphite features (source file for the pdf).

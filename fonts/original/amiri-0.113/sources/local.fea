@@ -1,0 +1,55 @@
+#ifdef QURAN
+# The Quran font does not have a separate period.ara glyph, it is the default
+# glyph.
+feature ccmp {
+  sub period by period.ara;
+  sub guillemotleft by guillemotleft.ara;
+  sub guillemotright by guillemotright.ara;
+  sub uni030A by uni030A.quran;
+  sub uni0325 by uni0325.quran;
+} ccmp;
+#else
+feature locl {
+  script arab;
+  sub period by period.ara;
+  sub guillemotleft by guillemotleft.ara;
+  sub guillemotright by guillemotright.ara;
+
+  language ARA include_dflt;
+  language URD include_dflt;
+  language SND include_dflt;
+  language KSH include_dflt;
+  language MLY include_dflt;
+} locl;
+#endif
+
+@comma = [uni060C uni061B];
+@comma.alt = [uni060C.alt uni061B.alt];
+
+feature locl {
+  script arab;
+
+  language URD exclude_dflt;
+  sub [uni06F4 uni06F6 uni06F7] by [uni06F4.urd uni06F6.urd uni06F7.urd];
+  sub uni0657 by uni0657.urd;
+
+  language KSH exclude_dflt;
+  sub [uni06F4 uni06F6 uni06F7] by [uni06F4.urd uni06F6.urd uni06F7.urd];
+  sub uni0657 by uni0657.urd;
+
+  language SND exclude_dflt;
+  sub [uni06F6 uni06F7] by [uni06F6.urd uni06F7.urd];
+  sub uni0657 by uni0657.urd;
+  sub @comma by @comma.alt;
+
+  language MLY exclude_dflt;
+  sub @comma by @comma.alt;
+} locl;
+
+feature ss08 {
+  featureNames {
+    name "Inverted Arabic comma";
+  };
+
+  sub @comma by @comma.alt;
+} ss08;

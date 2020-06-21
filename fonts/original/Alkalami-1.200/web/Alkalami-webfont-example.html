@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Alkalami-webfont-example.html
+Alkalami v1.200
+This file is part of Alkalami font family (http://software.sil.org/alkalami)
+and is Copyright (c) 2015-2020 SIL International (http://www.sil.org/),
+with Reserved Font Names "Alkalami" and "SIL". This Font Software is licensed
+under the SIL Open Font License, Version 1.1. You should have received a copy
+of the license along with this Font Software. If this is not the case, go to
+(http://scripts.sil.org/OFL) for all the details including a FAQ.
+-->
+<head>
+	<link rel="stylesheet" href="Alkalami-webfont-example.css" type="text/css">
+	<meta charset="utf-8">
+	<meta name="description" content="An example of using Alkalami on your web page via WOFF">
+	<meta name="author" content="SIL International: software.sil.org/wstech">
+
+</head>
+<body>
+<div style="font-size: 150%;" dir=ltr>
+	
+<h1>Using Alkalami webfonts</h1>
+<p>Rendering OpenType</p>
+<p>The page demonstrates how to use the WOFF version of Alkalami for web pages, using local copies of the .woff files in this archive. For more information on this technique
+	 - and how to use the normal TrueType version as a web font - see <a href="http://scripts.sil.org/using_web_fonts">Using SIL Fonts on Web Pages</a>. Currently the Alkalami font only supports OpenType rendering and will only render properly in applications which support OpenType.</p>
+
+<p>The body of this document is styled using an external stylesheet, with Alkalami set as the default font, and loaded directly as a WOFF file using the @font-face rule. 
+	If you're seeing a serif font here then it is working. Otherwise the text will be in a sans-serif or your browser default. 
+	This technique should work in Firefox 3.6+, Chrome 6, the IE9 beta, and in development versions of Safari.</p>
+	
+<p>To see specifically how these techniques are specified in the CSS and HTML view the source to this page and the accompanying CSS file.</p>
+</div>
+<div dir=rtl>
+<h2>Test General behavior of Arabic script in webfonts</h2>
+
+<h3>Regular</h3>
+<p class=rtl>
+۝1  وَلَمْ يَكُنْ فِي الأرْضِ إلّا لُغَةٌ واحِدَةٌ لَها مُفْرَداتٌ مَحْدُودَةٌ؞ ۝2 وَمَعَ ارتِحالِ النّاسِ مِنَ الشَّرْقِ، وَجَدُوا سَهلاً فِي أرْضِ شِنْعارَ؞ فَاسْتَقَرُّوا هُناكَ؞
+</p>
+
+<h3>Regular with alternate End of Ayah (ss02)</h3>
+
+<p class="ss02">
+۝1  وَلَمْ يَكُنْ فِي الأرْضِ إلّا لُغَةٌ واحِدَةٌ لَها مُفْرَداتٌ مَحْدُودَةٌ؞ ۝2 وَمَعَ ارتِحالِ النّاسِ مِنَ الشَّرْقِ، وَجَدُوا سَهلاً فِي أرْضِ شِنْعارَ؞ فَاسْتَقَرُّوا هُناكَ؞
+</p>
+
+<h3>Regular with alternate End of Ayah (ss02) and Warsh hack (ss01)</h3>
+
+<p class="ss0201">
+۝1  وَلَمْ يَكُنْ فِي الأرْضِ إلّا لُغَةٌ واحِدَةٌ لَها مُفْرَداتٌ مَحْدُودَةٌ؞ ۝2 وَمَعَ ارتِحالِ النّاسِ مِنَ الشَّرْقِ، وَجَدُوا سَهلاً فِي أرْضِ شِنْعارَ؞ فَاسْتَقَرُّوا هُناكَ؞
+</p>
+
+</div>
+</body>
+</html>

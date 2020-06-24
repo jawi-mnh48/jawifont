@@ -68,8 +68,8 @@ Senarai ini memaparkan huruf-huruf yang dikenali sebagai sebahagian daripada bah
       <td>metabolizing</td>
     </tr>
     <tr>
-      <td>No sound</td>
-      <td>(vokal starter)</td>
+      <td>(tiada)</td>
+      <td>(pemula vokal)</td>
       <td><span lang="ms-Arab"><span class="red">ا</span>ينده</span></td>
       <td><span style="text-decoration:underline;-webkit-text-decoration-color:red;text-decoration-color:red;">i</span>ndah</td>
       <td>/<span style="text-decoration:underline;-webkit-text-decoration-color:red;text-decoration-color:red;">i</span>n.dah/</td>
@@ -554,15 +554,15 @@ Senarai ini memaparkan huruf-huruf yang dikenali sebagai sebahagian daripada bah
       <td rowspan="3">Hamzah</td>
       <td rowspan="3">U+0621</td>
       <td rowspan="3">Arabic letter hamza</td>
-      <td rowspan="2">No sound</td>
-      <td>(Diphtong marker)</td>
+      <td rowspan="2">(tiada)</td>
+      <td>(tanda diftong)</td>
       <td><span lang="ms-Arab">ما<span class="red">ء</span>ين</span></td>
       <td>m<span style="text-decoration:underline;-webkit-text-decoration-color:red;text-decoration-color:red;">ai</span>n</td>
       <td>/m<span style="text-decoration:underline;-webkit-text-decoration-color:red;text-decoration-color:red;">ai</span>n/</td>
       <td>play</td>
     </tr>
     <tr>
-      <td>(Pause marker)</td>
+      <td>(tanda jeda)</td>
       <td><span lang="ms-Arab">لا<span class="red">ء</span>وق</span></td>
       <td>l<span style="text-decoration:underline;-webkit-text-decoration-color:red;text-decoration-color:red;">au</span>k</td>
       <td>/l<span style="text-decoration:underline;-webkit-text-decoration-color:red;text-decoration-color:red;">a<span class="red">.</span>o</span>ʔ/</td>

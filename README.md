@@ -91,7 +91,7 @@ The glyphs that I edit to make it support Jawi alphabet:
   - ڬ is not formally recognized as a letter in Malay.
 - Add glyph for Jawi Tilde (~) at U+007E, known in Unicode as Tilde, used in Malay to denote elongated sound or act as subtitution marker.
   - To ensure it still work as normal tilde outside of Jawi, only variant or joiner will be added instead of completely replacing the glyph.
-  - If there is Jawi letter before tilde, Jawi tilde will be displayed. Otherwise, normal tilde will be displayed.
+  - If there is Jawi letter before or after the tilde, Jawi tilde will be displayed. Otherwise, normal tilde will be displayed.
 
 Some Arabic fonts had even less glyph coverage and those need more works to do including:
 
@@ -154,4 +154,4 @@ All edited font files and the generated FontForge files are licensed the same as
 
 The website theme is temporarily [Midnight](https://github.com/mattgraham/midnight) by [mattgraham](https://mobile.twitter.com/mattgraham) available under MIT.
 
-All other contents in the repository and corresponding website are released under The MIT License.
+All other contents in the repository and corresponding website generated from the repository are released under The MIT License.

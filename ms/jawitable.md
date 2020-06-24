@@ -1,5 +1,5 @@
 ---
-title: Table of Jawi alphabet
+title: Jadual huruf Jawi
 ---
 
 <style>
@@ -29,23 +29,23 @@ title: Table of Jawi alphabet
   }
 </style>
 
-## Jawi letters in Malay
+## Huruf-huruf Jawi bahasa Melayu
 
-Listed here are the letters currently recognized as part of Malay language.
+Senarai ini memaparkan huruf-huruf yang dikenali sebagai sebahagian daripada bahasa Melayu ketika ini.
 
 <div class="table_wrapper">
   <table>
     <tr>
-      <th>Letter</th>
-      <th>Malay<br />Name</th>
-      <th>Unicode<br/>Codepoint</th>
-      <th>Unicode<br />Name</th>
-      <th>Sound<br />represented</th>
-      <th>Rumi<br />equivalent</th>
-      <th>Sample word<br />(Jawi)</th>
-      <th>Sample word<br />(Rumi)</th>
-      <th>Sample word<br />(IPA)</th>
-      <th>English meaning<br/>of sample word</th>
+      <th>Huruf</th>
+      <th>Nama<br />Melayu</th>
+      <th>Titik&nbsp;kod<br/>Unicode</th>
+      <th>Nama<br />Unicode</th>
+      <th>Bunyi<br />diwakilkan</th>
+      <th>Ejaan<br />Rumi</th>
+      <th>Contoh<br />(Jawi)</th>
+      <th>Contoh<br />(Rumi)</th>
+      <th>Contoh<br />(IPA)</th>
+      <th>Terjemahan<br/>Inggeris</th>
     </tr>
     <tr id="letter-alif">
       <td rowspan="3"><span lang="ms-Arab">ا</span></td>
@@ -69,7 +69,7 @@ Listed here are the letters currently recognized as part of Malay language.
     </tr>
     <tr>
       <td>No sound</td>
-      <td>(Vowel starter)</td>
+      <td>(vokal starter)</td>
       <td><span lang="ms-Arab"><span class="red">ا</span>ينده</span></td>
       <td><span style="text-decoration:underline;-webkit-text-decoration-color:red;text-decoration-color:red;">i</span>ndah</td>
       <td>/<span style="text-decoration:underline;-webkit-text-decoration-color:red;text-decoration-color:red;">i</span>n.dah/</td>
@@ -645,420 +645,419 @@ Listed here are the letters currently recognized as part of Malay language.
       <td><a href="https://en.wikipedia.org/wiki/Fatwa">verdict</a></td>
     </tr>
     <caption style="text-align:center;font-size:0.75em">
-      Modern Jawi alphabet as defined by <a href="https://en.wikipedia.org/wiki/Dewan_Bahasa_dan_Pustaka">Dewan Bahasa dan Pustaka</a>, the government body responsible for coordinating the use of the Malay language and Malay-language literature in Malaysia.
+      Huruf Jawi moden yang ditakrifkan oleh <a href="https://ms.wikipedia.org/wiki/Dewan_Bahasa_dan_Pustaka">Dewan Bahasa dan Pustaka</a>, badan kerajaan yang bertanggungjawab menyelaras penggunaan bahasa Melayu dan sastera berbahasa Melayu di Malaysia.
     </caption>
   </table>
 </div>
 
-## Jawi punctuation in Malay
+## Tanda bacaan Jawi dalam bahasa Melayu
 
-Listed here are the punctuation marks in Jawi as currently in used as part of Malay language.
+Senarai ini memaparkan tanda-tanda bacaan dalam tulisan Jawi yang kini digunakan sebagai sebahagian daripada bahasa Melayu.
 
 <div class="table_wrapper">
   <table>
     <tr>
-      <th>Punctuation</th>
-      <th>Malay<br />Name</th>
-      <th>Unicode<br />Codepoint</th>
-      <th>Unicode<br />Name</th>
-      <th>Usage</th>
+      <th>Tanda<br />Baca</th>
+      <th>Nama<br />Melayu</th>
+      <th>Titik&nbsp;kod<br />Unicode</th>
+      <th>Nama<br />Unicode</th>
+      <th>Kegunaan</th>
     </tr>
     <tr>
       <td><span lang="ms-Arab">.</span></td>
       <td>Noktah / Tanda Titik</td>
       <td>U+002E</td>
       <td>Full Stop</td>
-      <td>To end a sentence.</td>
+      <td>Untuk mengakhiri ayat.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">،</span></td>
       <td>Koma Arab</td>
       <td>U+060C</td>
       <td>Arabic Comma</td>
-      <td>Separate items or indicate pause.<br />(This is the proper character codepoint<br />for Jawi Comma but it is shown<br />incorrectly on unsupported system)</td>
+      <td>Memisahkan item atau menanda jeda.<br />(Ini titik kod aksara yang betul<br />untuk Jawi Comma tetapi ia ditunjukkan<br />secara salah pada sistem yang tiada sokongan)</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">⹁</span></td>
       <td>Koma Jawi</td>
       <td>U+2E41</td>
       <td>Reversed Comma</td>
-      <td>Separate items or indicate pause.<br />(This is not the proper character<br />codepoint for Jawi Comma but it is<br />shown correctly even on unsupported system)</td>
+      <td>Memisahkan item atau menandakan jeda.<br />(Ini bukanlah titik kod aksara yang<br />betul untuk Jawi Comma tetapi ianya<br />dipaparkan dengan betul walaupun pada sistem yang tiada sokongan)</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">!</span></td>
       <td>Tanda Seru</td>
       <td>U+0021</td>
       <td>Exclamation Mark</td>
-      <td>To end an emphasized sentence,<br />or sentence with strong feeling<br />attached to it.</td>
+      <td>Untuk mengakhiri ayat tegasan,<br />atau ayat yang mempunyai perasaan<br />yang sangat kuat.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">؟</span></td>
       <td>Tanda Tanya</td>
       <td>U+061F</td>
       <td>Arabic<br />Question Mark</td>
-      <td>To end a question, or sentence<br />with uncertainty elements.</td>
+      <td>Untuk mengakhiri soalan, atau ayat<br />dengan unsur ketidakpastian.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">:</span></td>
       <td>Titik Bertitik</td>
       <td>U+003A</td>
       <td>Colon</td>
-      <td>To end the sentence that will start<br />point listing or explaining afterwards.</td>
+      <td>Untuk mengakhiri ayat yang akan memulakan<br />senarai berbentuk poin atau penjelasan kemudiannya.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">؛</span></td>
       <td>Koma Bertitik<br />Arab</td>
       <td>U+061B</td>
       <td>Arabic Semicolon</td>
-      <td>To end a part of sentence but continue the topic.<br />(This is the proper character codepoint<br />for Jawi Semicolon but it is shown<br />incorrectly on unsupported system)</td>
+      <td>Untuk mengakhiri sebahagian ayat tetapi teruskan topik.<br />(Ini titik kod aksara yang betul<br />untuk Koma Bertitik Jawi tetapi ia ditunjukkan<br />secara salah pada sistem yang tiada sokongan)</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">⁏</span></td>
       <td>Koma Bertitik<br />Jawi</td>
       <td>U+204F</td>
       <td>Reversed Semicolon</td>
-      <td>To end a part of sentence but continue the topic.<br />(This is not the proper character codepoint<br />for Jawi Semicolon but it is shown<br />correctly even on unsupported system)</td>
+      <td>Untuk mengakhiri sebahagian ayat tetapi teruskan topik.<br />(Ini bukanlah titik kod aksara yang betul<br />untuk Koma Bertitik Jawi tetapi ia ditunjukkan<br />dengan betul walaupun pada sistem yang tiada sokongan)</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">٢</span></td>
       <td>Tanda Ganda</td>
       <td>U+0662</td>
       <td>Arabic-Indic<br />Digit Two</td>
-      <td>Ditto, to mark duplicated words used in Malay<br />to explicitly mark them as plural forms.</td>
+      <td>Tanda kata ganda, untuk menanda kata ganda dalam<br />bahasa Melayu untuk menunjukkan ianya kata jamak.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">﴾</span></td>
       <td>Tanda Kurungan<br />Pembuka Arab</td>
       <td>U+FD3E</td>
       <td>Ornate Left<br />Parenthesis</td>
-      <td>Multiple usage, mainly to start<br />explanation or alternate meaning.<br />(This is the proper character codepoint<br />for Jawi Opening Bracket but it is<br />shown incorrectly on unsupported system)</td>
+      <td>Banyak kegunaan, selalunya untuk mulakan<br />penjelasan atau makna alternatif.<br />(Ini titik kod aksara yang betul<br />untuk Tanda Kurungan Pembuka Jawi tetapi ianya<br />ditunjukkan secara salah pada sistem yang tiada sokongan)</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">﴿</span></td>
       <td>Tanda Kurungan<br />Penutup Arab</td>
       <td>U+FD3F</td>
       <td>Ornate Right<br />Parenthesis</td>
-      <td>Multiple usage, mainly to end<br />explanation or alternate meaning.<br />(This is the proper character codepoint<br />for Jawi Closing Bracket but it is<br />shown incorrectly on unsupported system)</td>
+      <td>Banyak kegunaan, selalunya untuk mengakhiri<br />penjelasan atau makna alternatif.<br />(Ini titik kod aksara yang betul<br />untuk Tanda Kurungan Penutup Jawi tetapi ianya<br />ditunjukkan secara salah pada sistem yang tiada sokongan)</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">(</span></td>
       <td>Tanda Kurungan<br />Pembuka</td>
       <td>U+0028</td>
       <td>Left Parenthesis</td>
-      <td>Multiple usage, mainly to start<br />explanation or alternate meaning.<br />(This is not the proper character codepoint<br />for Jawi Opening Bracket but it is<br />shown correctly even on unsupported system)</td>
+      <td>Banyak kegunaan, selalunya untuk mulakan<br />penjelasan atau makna alternatif.<br />(Ini bukanlah titik kod aksara yang betul<br />untuk Tanda Kurungan Pembuka Jawi tetapi ianya<br />dipaparkan dengan betul walaupun pada sistem yang tiada sokongan)</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">)</span></td>
       <td>Tanda Kurungan<br />Penutup</td>
       <td>U+0029</td>
       <td>Right Parenthesis</td>
-      <td>Multiple usage, mainly to end<br />explanation or alternate meaning.<br />(This is not the proper character codepoint<br />for Jawi Closing Bracket but it is<br />shown correctly even on unsupported system)</td>
+      <td>Banyak kegunaan, selalunya untuk mengakhiri<br />penjelasan atau makna alternatif.<br />(Ini bukanlah titik kod aksara yang betul<br />untuk Tanda Kurungan Penutup Jawi tetapi ianya<br />dipaparkan dengan betul walaupun pada sistem yang tiada sokongan)</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">"</span></td>
       <td>Tanda Petik</td>
       <td>U+0022</td>
       <td>Quotation Mark</td>
-      <td>To mark a quoted sentence.<br />(This character is used on unsupported<br />system for both opening and ending<br />of the quoted sentence)</td>
+      <td>Untuk menanda ayat dipetik.<br />(Aksara ini digunakan pada sistem tanpa<br />sokongan bagi kedua-dua pembuka dan penutup<br />ayat yang dipetik)</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">”</span></td>
       <td>Tanda Petik<br />Pembuka</td>
       <td>U+201D</td>
       <td>Right Double<br />Quotation Mark</td>
-      <td>To mark the start of quoted sentence.<br />(This character is used on supported system only)</td>
+      <td>Untuk menanda permulaan ayat dipetik.<br />(Aksara ini hanya digunakan pada sistem yang disokong)</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">‟</span></td>
       <td>Tanda Petik<br />Penutup</td>
       <td>U+201F</td>
       <td>Double High-Reversed-9<br />Quotation Mark</td>
-      <td>To mark the end of quoted sentence.<br />(This character is used on supported system only)</td>
+      <td>Untuk menanda penutup ayat dipetik.<br />(Aksara ini hanya digunakan pada sistem yang disokong)</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">'</span></td>
       <td>Koma Terbalik</td>
       <td>U+0027</td>
       <td>Apostrophe</td>
-      <td>To mark a quote inside a quoted sentence.<br />(This character is used on unsupported<br />system for both opening and ending)</td>
+      <td>Untuk menanda petikan dalam ayat dipetik.<br />(Aksara ini digunakan pada sistem tanpa<br />sokongan bagi kedua-dua pembuka dan penutup)</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">’</span></td>
       <td>Koma Atas Terbalik</td>
       <td>U+2019</td>
       <td>Right Single<br />Quotation Mark</td>
-      <td>To mark the start of quote inside a quoted sentence.<br />(This character is used on supported system only)</td>
+      <td>Untuk menanda permulaan petikan dalam ayat dipetik.<br />(Aksara ini hanya digunakan pada sistem yang disokong)</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">‛</span></td>
       <td>Koma Atas</td>
       <td>U+201B</td>
       <td>Single High-Reversed-9<br />Quotation Mark</td>
-      <td>To mark the end of quote inside a quoted sentence.<br />(This character is used on supported system only)</td>
+      <td>Untuk menanda penutup petikan dalam ayat dipetik.<br />(Aksara ini hanya digunakan pada sistem yang disokong)</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">\</span></td>
       <td>Tanda Palang Jawi</td>
       <td>U+005C</td>
       <td>Reverse Solidus</td>
-      <td>Short form of "or" in Jawi</td>
+      <td>Singkatan untuk "atau" dalam Jawi</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">/</span></td>
       <td>Tanda Palang Rumi</td>
       <td>U+002F</td>
       <td>Solidus</td>
-      <td>Used in fractions in Jawi,<br />also short form of "or" in Rumi</td>
+      <td>Digunakan dalam nombor pecahan dalam Jawi,<br />juga singkatan untuk "atau" dalam Rumi</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">#</span></td>
       <td>Tanda Pagar</td>
       <td>U+0023</td>
       <td>Number sign</td>
-      <td>Multiple usage, originally<br />short form of "No."</td>
+      <td>Banyak kegunaan, asalnya<br />singkatan untuk "No."</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">-</span></td>
       <td>Tanda Sempang</td>
       <td>U+002D</td>
       <td>Hyphen-Minus</td>
-      <td>Multiple usage,<br />mainly to join words</td>
+      <td>Banyak kegunaan,<br />selalunya untuk sambung perkataan</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">—</span></td>
       <td>Tanda Pisah</td>
       <td>U+2014</td>
       <td>Em Dash</td>
-      <td>Multiple usage, mainly short form of<br />"until" or "to", eg. 2012—2019 (2012 to 2019)</td>
+      <td>Banyak kegunaan, selalunya singkatan untuk<br />"sehingga" atau "ke", cth. 2012—2019 (2012 ke 2019)</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">~</span></td>
       <td>Tanda Tilde</td>
       <td>U+007E</td>
       <td>Tilde</td>
-      <td>Used as placeholder or mark for elongated sound.<br />(This is the proper character codepoint<br />for Jawi Tilde but it is shown<br />incorrectly on unsupported system)</td>
+      <td>Digunakan sebagai pemegang tempat atau penanda bunyi panjang.<br />(Ini titik kod aksara yang betul<br />untuk Jawi Tilde tetapi ia ditunjukkan<br />secara salah pada sistem yang tiada sokongan)</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">∽</span></td>
       <td>Tanda Tilde Jawi</td>
       <td>U+223D</td>
       <td>Reversed Tilde</td>
-      <td>Used as placeholder or mark for elongated sound.<br />(This is not the proper character codepoint<br />for Jawi Tilde but it is shown<br />correctly even on unsupported system)</td>
+      <td>Digunakan sebagai pemegang tempat atau penanda bunyi panjang.<br />(Ini bukanlah titik kod aksara yang betul<br />untuk Tilde Jawi tetapi ia ditunjukkan<br />dengan betul walaupun pada sistem yang tiada sokongan)</td>
     </tr>
   </table>
 </div>
 
-## Other letters in Malay
+## Huruf-huruf lain dalam bahasa Melayu
 
-Listed here are the letters used as part of Malay language, formerly and currently, but not recognized as such.
+Senarai ini memaparkan huruf-huruf yang digunakan sebagai sebahagian daripada bahasa Melayu, dahulunya atau sekarangnya, tetapi tidak dikira sebagai huruf Jawi.
 
 <div class="table_wrapper">
   <table>
     <tr>
-      <th>Letter</th>
-      <th>Unicode<br />Codepoint</th>
-      <th>Unicode<br />Name</th>
-      <th>Usage</th>
+      <th>Huruf</th>
+      <th>Titik&nbsp;Kod<br />Unicode</th>
+      <th>Nama<br />Unicode</th>
+      <th>Kegunaan</th>
     </tr>
     <tr>
       <td><span lang="ms-Arab">ك</span></td>
       <td>U+0643</td>
       <td>Arabic Letter Kaf</td>
-      <td>Used in place of Jawi Kaf (ک) when system<br />does not support the actual letter.<br />Obsolete, use <a href="#letter-kaf">Jawi Letter Kaf</a> instead.</td>
+      <td>Digunakan sebagai ganti huruf Jawi Kaf (ک) apabila sistem<br />tidak menyokong aksara yang sebenar.<br />Ketinggalan zaman, gunakan <a href="#letter-kaf">Huruf Jawi Kaf</a> sebagai ganti.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">ڬ</span></td>
       <td>U+06AC</td>
       <td>Arabic Letter Kaf<br />with Dot Above</td>
-      <td>Used in place of Jawi Ga (ݢ) when system<br />does not support the actual letter.<br />Obsolete, use <a href="#letter-ga">Jawi Letter Ga</a> instead.</td>
+      <td>Digunakan sebagai ganti huruf Jawi Ga (ݢ) apabila sistem<br />tidak menyokong aksara yang sebenar.<br />Ketinggalan zaman, gunakan <a href="#letter-ga">Huruf Jawi Ga</a> sebagai ganti.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">ࢴ</span></td>
       <td>U+08B4</td>
       <td>Arabic Letter Kaf<br />with Dot Below</td>
-      <td>Used by Indonesians when trying to write Malay,<br />mostly influenced by their Pegon script system that use it for G.<br />Please properly use <a href="#letter-ga">Jawi Letter Ga</a> instead when writing Malay.</td>
+      <td>Digunakan oleh orang Indonesia yang cuba tulis Melayu,<br />kebanyakannya dipengaruhi sistem tulisan Pegon mereka yang gunakannya untuk G.<br />Sila gunakan dengan betul <a href="#letter-ga">Huruf Jawi Ga</a> sebagai ganti apabila menulis bahasa Melayu.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">ݣ</span></td>
       <td>U+0763</td>
       <td>Arabic Letter Keheh<br />with Thrre Dots Above</td>
-      <td>Used in old Malay as alternative to letter Ga (ݢ).<br />Obsolete, please properly use <a href="#letter-ga">Jawi Letter Ga</a> instead.</td>
+      <td>Digunakan dalam tulisan Melayu lama sebagai ganti huruf Ga (ݢ).<br />Ketinggalan zaman, Sila gunakan dengan betul <a href="#letter-ga">Huruf Jawi Ga</a> sebagai ganti.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">گ</span></td>
       <td>U+06AF</td>
       <td>Arabic Letter Gaf</td>
-      <td>Used in old Malay as alternative to letter Ga (ݢ).<br />Obsolete, please properly use <a href="#letter-ga">Jawi Letter Ga</a> instead.</td>
+      <td>Digunakan dalam tulisan Melayu lama sebagai ganti huruf Ga (ݢ).<br />Ketinggalan zaman, Sila gunakan dengan betul <a href="#letter-ga">Huruf Jawi Ga</a> sebagai ganti.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">ٴ</span></td>
       <td>U+0674</td>
       <td>Arabic Letter High Hamza</td>
-      <td>Used in place of Jawi Hamzah (ء) if<br />the system does support the actual letter.<br />Otherwise, use <a href="#letter-hamzah">Jawi Letter Hamzah</a> instead.</td>
+      <td>Digunakan sebagai ganti huruf Jawi Hamzah (ء) sekiranya<br />sistem tidak menyokong huruf sebenar.<br />Jika tidak, gunakan <a href="#letter-hamzah">Huruf Jawi Hamzah</a> sebagai ganti.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">أ</span></td>
       <td>U+0623</td>
       <td>Arabic Letter Alef<br />with Hamza Above</td>
-      <td>Used in certain situation when standalone<br />Jawi Hamzah (ء) would cause confusion.<br />Otherwise, use <a href="#letter-hamzah">Jawi Letter Hamzah</a> instead.</td>
+      <td>Digunakan dalam keadaan tertentu apabila Jawi<br />Hamzah (ء) bersendirian akan menimbulkan kekeliruan.<br />Jika tidak, gunakan <a href="#letter-hamzah">Huruf Jawi Hamzah</a> sebagai ganti.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">ئ</span></td>
       <td>U+0626</td>
       <td>Arabic Letter Yeh<br />with Hamza Above</td>
-      <td>Currently only used in family name.<br />Formerly also used for certain Malay sounds but those are obsolete,<br />use combination of <a href="#letter-hamzah">Jawi Letter Hamzah</a> and <a href="#letter-ya">Jawi Letter Ya</a><br />instead with position determined based on the sound needed.</td>
+      <td>Waktu ini hanya digunakan dalam nama keluarga.<br />Dahulunya juga digunakan untuk sesetengah bunyi Melayu tetapi itu semua ketinggalan zaman,<br />gunakan gabungan <a href="#letter-hamzah">Huruf Jawi Hamzah</a> dan <a href="#letter-ya">Huruf Jawi Ya</a><br />sebagai ganti dengan kedudukan ditentukan berdasarkan bunyi yang diperlukan.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">ؤ</span></td>
       <td>U+0624</td>
       <td>Arabic Letter Waw<br />with Hamza Above</td>
-      <td>Formerly used for certain Malay sounds but those are obsolete,<br />use combination of <a href="#letter-hamzah">Jawi Letter Hamzah</a> and <a href="#letter-wau">Jawi Letter Wau</a><br />instead with position determined based on the sound needed.</td>
+      <td>Dahulunya digunakan untuk sesetengah bunyi Melayu tetapi itu semua ketinggalan zaman,<br />gunakan gabungan <a href="#letter-hamzah">Huruf Jawi Hamzah</a> dan <a href="#letter-wau">Huruf Jawi Wau</a><br />sebagai ganti dengan kedudukan ditentukan berdasarkan bunyi yang diperlukan.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">ڎ</span></td>
       <td>U+068E</td>
       <td>Arabic Letter Dul</td>
-      <td>Formerly used for Sundanese and Javanese words in Malay.<br />Obsolete, use either <a href="#letter-dal">Jawi Letter Dal</a> or <a href="#letter-dad">Jawi Letter Dad</a>,<br />combined with <a href="#letter-ha-besar">Jawi Letter Ha Besar</a> instead.</td>
+      <td>Dahulunya digunakan untuk perkataan bahasa Sunda dan bahasa Jawa dalam bahasa Melayu.<br />Ketinggalan zaman, gunakan sama ada <a href="#letter-dal">Huruf Jawi Dal</a> atau <a href="#letter-dad">Huruf Jawi Dad</a>,<br />digabungkan dengan <a href="#letter-ha-besar">Huruf Jawi Ha Besar</a> sebagai ganti.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">ڟ</span></td>
       <td>U+069F</td>
       <td>Arabic Letter Tah</td>
-      <td>Formerly used for Sundanese and Javanese words in Malay.<br />Obsolete, use either <a href="#letter-ta">Jawi Letter Ta</a> or <a href="#letter-to">Jawi Letter To</a>,<br />combined with <a href="#letter-ha-besar">Jawi Letter Ha Besar</a> instead.</td>
+      <td>Dahulunya digunakan untuk perkataan bahasa Sunda dan bahasa Jawa dalam bahasa Melayu.<br />Ketinggalan zaman, gunakan sama ada <a href="#letter-ta">Huruf Jawi Ta</a> atau <a href="#letter-to">Huruf Jawi To</a>,<br />digabungkan dengan <a href="#letter-ha-besar">Huruf Jawi Ha Besar</a> sebagai ganti.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">ۋ</span></td>
       <td>U+06CB</td>
       <td>Arabic Letter Ve</td>
-      <td>Not exist in Malay but used by some people<br />in place of Letter Va (ۏ), use <a href="#letter-va">Jawi Letter Va</a> instead.</td>
+      <td>Tidak wujud dalam bahasa Melayu tetapi digunakan oleh sebahagian orang<br />menggantikan huruf Va (ۏ), gunakan <a href="#letter-va">Huruf Jawi Va</a> sebagai ganti.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">ژ</span></td>
       <td>U+0698</td>
       <td>Arabic Letter Jeh</td>
-      <td>Not exist in Malay but used by some people<br />in place of Letter Zai (ز), use <a href="#letter-zai">Jawi Letter Zai</a> instead.</td>
+      <td>Tidak wujud dalam bahasa Melayu tetapi digunakan oleh sebahagian orang<br />menggantikan Letter Zai (ز), gunakan <a href="#letter-zai">Huruf Jawi Zai</a> sebagai ganti.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">پ</span></td>
       <td>U+067E</td>
       <td>Arabic Letter Peh</td>
-      <td>Not exist in Malay but used by some people<br />in place of Letter Nya (ڽ), use <a href="#letter-nya">Jawi Letter Nya</a> instead.</td>
+      <td>Tidak wujud dalam bahasa Melayu tetapi digunakan oleh sebahagian orang<br />menggantikan Huruf Nya (ڽ), gunakan <a href="#letter-nya">Huruf Jawi Nya</a> sebagai ganti.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">ۑ</span></td>
       <td>U+06D1</td>
       <td>Arabic Letter Yeh<br />with Three Dots Below</td>
-      <td>Not exist in Malay but used by some people<br />in place of Letter Ye (ى) to differentiate<br />from Letter Ya (ي), use <a href="#letter-ye">Jawi Letter Ye</a> instead.<br />Also used by Indonesians when trying to write Malay,<br />mostly influenced by their Pegon script system that use it for NY.<br />Please properly use <a href="#letter-nya">Jawi Letter Nya</a> instead when writing Malay</td>
+      <td>Tidak wujud dalam bahasa Melayu tetapi digunakan oleh sebahagian orang<br />menggantikan Huruf Ye (ى) untuk membezakan<br />daripada Huruf Ya (ي), gunakan <a href="#letter-ye">Huruf Jawi Ye</a> sebagai ganti.<br />Juga digunakan oleh orang Indonesia yang cuba tulis Melayu,<br />kebanyakannya dipengaruhi sistem tulisan Pegon mereka yang gunakannya untuk NY.<br />Sila gunakan dengan betul <a href="#letter-nya">Huruf Jawi Nya</a> sebagai ganti apabila menulis bahasa Melayu</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">آ</span></td>
       <td>U+0622</td>
       <td>Arabic Letter Alef<br />with Madda Above</td>
-      <td>Not exist in Malay but used by some people<br />to denote elongated sound, use double <a href="#letter-alif">Jawi Letter Alif</a><br />or place tilde (~) after <a href="#letter-alif">Jawi Letter Alif</a> instead.</td>
+      <td>Tidak wujud dalam bahasa Melayu tetapi digunakan oleh sebahagian orang<br />untuk menanda bunyi panjang, gunakan dua <a href="#letter-alif">Huruf Jawi Alif</a><br />atau letakkan tilde (~) selepas <a href="#letter-alif">Huruf Jawi Alif</a> sebagai ganti.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">إ</span></td>
       <td>U+0625</td>
       <td>Arabic Letter Alef<br />with Hamza Below</td>
-      <td>Only exist in Malay loanwords originated from Arabic.<br />Formerly used by some people to create certain<br />sound that the actual spelling is Letter Alif<br />followed by Letter Ya (اي), in that case use<br /><a href="#letter-alif">Jawi Letter Alif</a> followed by <a href="#letter-ya">Jawi Letter Ya</a> instead.</td>
+      <td>Hanya wujud dalam perkataan Melayu dipinjam daripada bahasa Arab.<br />Dahulunya digunakan oleh sesetengah orang untuk mencipta<br />bunyi tertentu yang ejaan sebenarnya Huruf Alif<br />diikuti oleh Huruf Ya (اي), jika begitu gunakan<br /><a href="#letter-alif">Huruf Jawi Alif</a> diikuti dengan <a href="#letter-ya">Huruf Jawi Ya</a> sebagai ganti.</td>
     </tr>
   </table>
 </div>
 
-## Additional characters for Pegon
+## Aksara tambahan untuk Pegon
 
-While the fonts are mainly for Jawi script, I decided to also include support for Pegon script so that the same font can also be used by Indonesians. Plus, there has been saying that Pegon derived from Jawi, so I should support them as someone who use their ancestor Jawi.
+Walaupun fon di sini dikhususkan untuk tulisan Jawi, saya membuat keputusan untuk turut menyokong tulisan Pegon supaya fon yang sama juga boleh digunakan oleh orang Indonesia. Malahan, ada khabar mengatakan tulisan Pegon diasaskan daripada tulisan Jawi, jadi saya patut menyokong mereka juga sebagai seseorang yang menggunakan moyang mereka iaitu Jawi.
 
-These are the additional characters and markings used in Pegon script, others are already covered by Jawi script:
+Senarai ini memaparkan aksara-aksara tambahan dan tanda tambahan yang digunakan dalam tulisan Pegon, aksara lainnya sudah diliputi oleh tulisan Jawi:
 
 <div class="table_wrapper">
   <table>
     <tr>
-      <th>Letter</th>
-      <th>Unicode<br />Codepoint</th>
-      <th>Unicode<br />Name</th>
-      <th>Usage</th>
+      <th>Huruf</th>
+      <th>Titik&nbsp;kod<br />Unicode</th>
+      <th>Nama<br />Unicode</th>
+      <th>Kegunaan</th>
     </tr>
     <tr>
       <td><span lang="id-Arab">ۑ</span></td>
       <td>U+06D1</td>
       <td>Arabic Letter Yeh<br />with Three Dots Below</td>
-      <td>Used for letter NY in Sundanese.</td>
+      <td>Digunakan untuk huruf NY dalam bahasa Sunda.</td>
     </tr>
     <tr>
       <td><span lang="id-Arab">ࢴ</span></td>
       <td>U+08B4</td>
       <td>Arabic Letter Kaf<br />with Dot Below</td>
-      <td>Used for letter G in Javanese.</td>
+      <td>Digunakan untuk huruf G dalam bahasa Jawa.</td>
     </tr>
     <tr>
       <td><span lang="id-Arab">ࢍ</span></td>
       <td>U+088D</td>
       <td>Arabic Letter Keheh<br />with
 Two Dots Vertically Below</td>
-      <td>Used for letter G in Sundanese.</td>
+      <td>Digunakan untuk huruf G dalam bahasa Sunda.</td>
     </tr>
     <tr>
       <td><span lang="id-Arab">ڎ</span></td>
       <td>U+068E</td>
       <td>Arabic Letter Dul</td>
-      <td>Used for letter DH on unsupported system.</td>
+      <td>Digunakan untuk huruf DH pada sistem yang tidak menyokong.</td>
     </tr>
     <tr>
       <td><span lang="id-Arab">ڊ</span></td>
       <td>U+068A</td>
       <td>Arabic Letter Dal<br />with Dot Below</td>
-      <td>Used for letter DH on supported system.</td>
+      <td>Digunakan untuk huruf DH pada sistem yang disokong.</td>
     </tr>
     <tr>
       <td><span lang="id-Arab">ࢮ</span></td>
       <td>U+08AE</td>
       <td>Arabic Letter Dal<br />with Three Dots Below</td>
-      <td>Used as alternative for letter DH on supported system.</td>
+      <td>Digunakan sebagai alternatif untuk huruf DH pada sistem yang disokong.</td>
     </tr>
     <tr>
       <td><span lang="id-Arab">ڟ</span></td>
       <td>U+069F</td>
       <td>Arabic Letter Tah</td>
-      <td>Used for letter TH on unsupported system.</td>
+      <td>Digunakan untuk huruf TH pada sistem yang tidak menyokong.</td>
     </tr>
     <tr>
       <td><span lang="id-Arab">ࢋ</span></td>
       <td>U+088B</td>
       <td>Arabic Letter Tah<br />with Dot
 Below</td>
-      <td>Used for letter TH on supported system.</td>
+      <td>Digunakan untuk huruf TH pada sistem yang disokong.</td>
     </tr>
     <tr>
       <td><span lang="id-Arab">ࢌ</span></td>
       <td>U+088C</td>
       <td>Arabic Letter Tah<br />with Three Dots Below</td>
-      <td>Used as alternative for letter TH on supported system.</td>
+      <td>Digunakan sebagai alternatif untuk huruf TH pada sistem yang disokong.</td>
     </tr>
     <tr>
       <td><span lang="id-Arab">َ</span></td>
       <td>U+064E</td>
       <td>Arabic Fatha</td>
-      <td>Used for vowel A (when next character is not YA/ي or WAU/و),<br />vowel E (when next character is YA/ي),<br />or vowel O (when next character is WAU/و).</td>
+      <td>Digunakan untuk vokal A (apabila aksara berikutnya bukan YA/ي atau WAU/و),<br />vokal E (apabila aksara berikutnya YA/ي),<br />atau vokal O (apabila aksara berikutnya WAU/و).</td>
     </tr>
     <tr>
       <td><span lang="id-Arab">ِ</span></td>
       <td>U+0650</td>
       <td>Arabic Kasra</td>
-      <td>Used for vowel I.</td>
+      <td>Digunakan untuk vokal I.</td>
     </tr>
     <tr>
       <td><span lang="id-Arab">ُ</span></td>
       <td>U+064F</td>
       <td>Arabic Damma</td>
-      <td>Used for vowel U.</td>
+      <td>Digunakan untuk vokal U.</td>
     </tr>
     <tr>
       <td><span lang="id-Arab">ٓ</span></td>
       <td>U+0653</td>
       <td>Arabic Maddah Above</td>
-      <td>Used for vowel Ə.</td>
+      <td>Digunakan untuk vokal Ə.</td>
     </tr>
   </table>
 </div>
-    

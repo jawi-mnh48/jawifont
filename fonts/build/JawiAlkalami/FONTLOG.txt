@@ -37,6 +37,8 @@ For now, one font is included in this release:
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
+2020-07-03 (Yaya MNH48) JawiAlkalami Version 1.301
+- Try to fix some glyph issues
 2020-07-03 (Yaya MNH48) JawiAlkalami Version 1.300
 - Added glyphs:
 1. Arabic letter keheh with a dot above (U+0762) -> Jawi letter ga

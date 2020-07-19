@@ -76,15 +76,6 @@ Glif-glif yang saya sunting untuk membuatnya sokong tulisan Jawi termasuklah:
 - Tambah glif untuk huruf Jawi GA (ݢ) di U+0762, dikenali dalam Unicode sebagai Arabic Letter Keheh with Dot Above, digunakan dalam bahasa Melayu untuk bunyi /g/.
 - Tambah glif untuk huruf Jawi VA (ۏ) di U+06CF, dikenali dalam Unicode sebagai Arabic Letter Waw with Dot Above, digunakan dalam bahasa Melayu untuk bunyi /v/.
 - Tambah glif untuk huruf Jawi NYA (ڽ) di U+06BD, dikenali dalam Unicode sebagai Arabic Letter Noon with Three Dots Above, digunakan dalam bahasa Melayu untuk bunyi /ɲ/.
-- Mengubah glif untuk Hamzah Arab (ء) di U+0621 menjadi huruf Jawi Hamzah Tiga Suku.
-  - Kebanyakan pengguna digital tulisan Jawi menggunakan U+0621 untuk hamzah tiga suku kerana itulah yang ada pada kebanyakan papan kekunci walaupun ia bukanlah aksara sebenar untuk huruf Jawi hamzah tiga suku, yang tidak wujud dalam Unicode.
-  - Kedudukan tiga suku tersebut kadang-kadang dibuat-buat dengan meletakkan U+0621 dalam keadaan superskrip, tetapi ia hanya boleh dilakukan pada aturcara yang mampu menyuperskripkan huruf bukan-superskrip. Kedudukannya juga kadang-kadang lebih tinggi daripada jangkaan dan kelihatan kecil saiznya daripada biasa apabila disuperskripkan, yang mana ianya lain daripada apa yang kita gunakan dalam bahasa Melayu.
-  - Hamzah tiga suku Jawi tidak disokong dalam mana-mana fon yang diketahui.
-  - Dalam tulisan tangan dunia nyata, semua pengguna Jawi menulis hamzah tiga suku dengan cara yang betul, dan ianya lain daripada koma bertitik Arab.
-  - Fon yang disunting mengubah fungsi ini agar glif yang dipaparkan secara lalainya ialah huruf Jawi hamzah tiga suku, dan hamzah Arab hanya dipaparkan jika bahasa ditetapkan kepada bahasa Arab. Ini membuatkannya paparkan huruf Jawi hamzah tiga suku secara lalai apabila tiada bahasa dinyatakan, berguna untuk aturcara lama untuk paparkan Jawi.
-  - Hamzah tiga suku Jawi kelihatan seperti ini:<br /> ![jawi¾hamzah](img/github/jawi¾hamzah.png).
-- Halakan glif hamzah Arabic tinggi (ٴ) di U+0674 kepada Hamzah Arab di U+0621 selepas perubahan glif di situ daripada hamzah Arab kepada hamzah tiga suku Jawi.
-  - Sebilangan kecil pengguna menggunakan U+0674 untuk hamzah tiga suku kerana ia kelihatan lebih serupa dengan hamzah Jawi berbanding U+0621, tetapi aksara tersebut sepatutnya menjadi sebahagian daripada diftong dan diletakkan bersama-sama huruf lain dalam bahasa yang lain, tidak seperti Jawi di mana hamzah tiga suku merupakan hurufnya sendiri.
 - Tambah glif untuk huruf Jawi lama GA (ڬ) di U+06AC, dikenali dalam Unicode sebagai Arabic Letter Kaf with Dot Above, dahulunya digunakan dalam bahasa Melayu untuk bunyi /g/ apabila Arabic Letter Keheh with Dot Above (ݢ) di U+0762 tidak boleh dimasukkan dengan papan kekunci.
   - Glif disertakan untuk kegunaan keserasian
   - Dalam tulisan tangan dunia nyata, ڬ tidak pernah digunakan dalam tulisan lama, dan ia tidak digunakan melainkan untuk tujuan penggayaan dalan penulisan baharu atau tersalahguna oleh orang ramai yang mempelajari Jawi menggunakan alatan digital yang dicipta pada zaman di mana aksara ݢ tidak dapat dimasukkan menggunakan papan kekunci, ia mestilah sentiasa ditulis sebagai ݢ dalam penulisan sebenar.
@@ -93,26 +84,40 @@ Glif-glif yang saya sunting untuk membuatnya sokong tulisan Jawi termasuklah:
   - Untuk pastikan ia masih berfungsi sebagai tilde yang biasa di luar Jawi, hanya variasi atau penggabung yang akan ditambah dan bukannya menggantikan keseluruhan glif tersebut.
   - Sekiranya ada huruf Jawi sebelum atau selepas tanda tilde, tilde Jawi akan dipaparkan. Jika tidak, tilde biasa akan dipaparkan.
 
+
+Beberapa jenis hamzah yang berlainan juga ditambah untuk tujuan keserasian, antara yang berkaitan:
+
+- Menukar glif untuk Hamzah Tinggi Arab (ٴ) di U+0674 menjadi hamzah tiga suku.
+  - Hamzah tiga suku Jawi tidak wujud dalam Unicode,<sup>[[5]](#ref5)[[6]](#ref6)[[8]](#ref8)</sup> jadi ini hanyalah penyelesaian sementara waktu.
+  - Sesetengah orang menggunakan U+0621 untuk hamzah tiga suku menggantikan hamzah Arab tetapi ianya salah kerana bahasa Melayu menggunakan kedua-duanya dan mengunah hamzah Arab akan menyebabkan ia sukar untuk dikenal.
+  - Hamzah tiga suku digunakan dalam perkataan asal dan perkataan serapan dalam bahasa Melayu<sup>[[7]](#ref7)</sup> manakala hamzah Arab digunakan digunakan untik perkataan yang dipinjam daripada bahasa Arab di dalam bahasa Melayu, kedua-duanya tidak boleh saling bertukar.
+ - Hamzah tiga suku Jawi kelihatan sebegini:<br />![jawi¾hamzah](img/github/jawi¾hamzah.png).
+- Kekalkan glif Hamzah Arab di U+0621 kerana ia digunakan untuk perkataan pinjaman bahasa Arab di dalam bahasa Melayu.
+- Tambah glif untuk huruf Jawi Alif Berhamzah (أ) di U+0623, dikenali dalam Unicode sebagai Arabic Letter Alef with Hamza Above.
+  - Digunakan untuk imbuhan di-, se-, dan ke- dalam bahasa Melayu. Contoh: دأسه (diasah) menggunakan د *di-* (imbuhan ayat pasif) gabung dengan اسه *asah*.<sup>[[1]](#ref1)[[2]](#ref2)</sup>
+  - Digunakan sebagai sebahagian daripada diftong yang tidak boleh digunakan bersama-sama hamzah tiga suku mahupun tanpa sebarang hamzah. Contoh: أيمن (aiman) lain daripada اءيمن (a'iman) dan ايمن (iman).
+  - Lihat versi imej di bawah <br/> ![aiman](img/github/aiman.png)
+- Tambah glif untuk huruf bukan Jawi yang dikenali dalam Unicode sebagai Arabic Letter Alef with Hamza Below di U+0625.
+  - Digunakan dalam perkataan pinjaman bahasa Arab di dalam bahasa Melayu. Contoh: وإما (waimma).<sup>[[1]](#ref1)[[3]](#ref3)</sup>
+- Tambah glif untuk huruf bukan Jawi dikenali dalam Unicode sebagai Arabic Letter Yeh with Hamza Above (ئ) di U+0626.
+  - Digunakan dalam perkataan pinjaman bahasa Arab di dalam bahasa Melayu. Contoh: ملائکة (malaikat)<sup>[[1]](#ref1)[[4]](#ref4)</sup>.
+  - Kebetulannya, ia pernah digunakan dalam Jawi lama sebagai diftong /ai/ dan /ae/ (kedua-duanya kini ditulis sebagai أي), dan bunyi /iʔ/ dan /eʔ/ (kedua-duanya kini ditulis sebagai يء).
+  - Masih digunakan sebagai sebahagian daripada nama keluarga Melayu iaitu Nik (نئ) seperti [Nik Abdul Aziz](https://ms.wikipedia.org/wiki/Nik_Abdul_Aziz_bin_Nik_Mat) (نئ عبدالعزيز).
+
+
 Sesetengah fon-fon Arab mempunyai liputan glif yang kurang dan lebih banyak kerja perlu dibuat termasuklah:
 
 - Tambah glif untuk huruf Jawi CA (چ) di U+0686, dikenali dalam Unicode sebagai Arabic Letter Tcheh, digunakan dalam bahasa Melayu untuk bunyi /t͡ʃ/.
 - Tambah glif untuk huruf Jawi PA (ڤ) di U+06A4, dikenali dalam Unicode sebagai Arabic Letter Veh, digunakan dalam bahasa Melayu untuk bunyi /p/.
 - Tambah glif untuk huruf Jawi KAF (ک) di U+06A9, dikenali dalam Unicode sebagai Arabic Letter Keheh, digunakan dalam bahasa Melayu untuk bunyi /k/.
 - Tambah glif untuk huruf Jawi YE (ى) di U+0649, dikenali dalam Unicode sebagai Arabic Letter Alef Maksura, digunakan dalam bahasa Melayu untuk bunyi akhiran /ə/.
-- Tambah glif untuk huruf Jawi Alif Berhamzah (أ) di U+0623, dikenali dalam Unicode sebagai Arabic Letter Alef with Hamza Above, digunakan sebagai sebahagian daripada diftong yang tidak boleh digunakan bersama-sama hamzah tiga suku mahupun tanpa sebarang hamzah. Contoh: أيمن (aiman) lain daripada اءيمن (a'iman) dan ايمن (iman).
-  - Lihat versi imej di bawah <br/> ![aiman](img/github/aiman.png)
-- Tambah glif untuk Tanda Petik
-Pembuka Jawi (”) di U+201D, dikenali dalam Unicode sebagai Right Double Quotation Mark.
-- Tambah glif untuk Tanda Petik Penutup Jawi (‟) di U+201F, dikenali dalam Unicode sebagai Double High-Reversed-9 Quotation Mark.
-- Tambah glif untuk Koma Atas Terbalik Jawi (’) di U+2019, dikenali dalam Unicode sebagai Right Single Quotation Mark.
-- Tambah glif untuk Koma Atas Jawi (‛) di U+201B, dikenali dalam Unicode sebagai Single High-Reversed-9 Quotation Mark.
+- Tambah glif untuk Tanda Petik Pembuka Jawi (‟) di U+201F, dikenali dalam Unicode sebagai Double High-Reversed-9 Quotation Mark.
+- Tambah glif untuk Tanda Petik Penutup Jawi (”) di U+201D, dikenali dalam Unicode sebagai Right Double Quotation Mark.
+- Tambah glif untuk Koma Atas Terbalik Jawi (‛) di U+201B, dikenali dalam Unicode sebagai Single High-Reversed-9 Quotation Mark.
+- Tambah glif untuk Koma Atas Jawi (’) di U+2019, dikenali dalam Unicode sebagai Right Single Quotation Mark.
 
 Untuk tujuan keserasian, beberapa lagi glif turut akan diperiksa dan ditambah jika tidak wujud:
 
-- Tambah glif untuk huruf bukan Jawi dikenali dalam Unicode sebagai Arabic Letter Yeh with Hamza Above (ئ) di U+0626.
-  - Glif ditambah untuk tujuan keserasian.
-  - Ia pernah digunakan dalam Jawi lama sebagai diftong /ai/ dan /ae/ (kedua-duanya kini ditulis sebagai أي), dan bunyi /iʔ/ dan /eʔ/ (kedua-duanya kini ditulis sebagai يء).
-  - Masih digunakan sebagai sebahagian daripada nama keluarga Melayu iaitu Nik (نئ) seperti [Nik Abdul Aziz](https://ms.wikipedia.org/wiki/Nik_Abdul_Aziz_bin_Nik_Mat) (نئ عبدالعزيز).
 - Tambah glif untuk huruf bukan Jawi dikenali dalam Unicode sebagai Arabic Letter Waw with Hamza Above (ؤ) di U+0624.
   - Glif ditambah untuk tujuan keserasian.
   - Ia pernah digunakan dalam Jawi lama sebagai diftong /ao/ dan /au/ (kedua-duanya kini ditulis sebagai أو) dan bunyi /uʔ/ dan /oʔ/ (kedua-duanya kini ditulis sebagai وء).
@@ -156,3 +161,15 @@ Kesemua fail fon yang disunting dan fail FontForge yang dijana dilesenkan sama s
 Tema laman web buat sementara waktu ini ialah [Midnight](https://github.com/mattgraham/midnight) oleh [mattgraham](https://twitter.com/mattgraham) yang boleh didapati bawah lesen MIT.
 
 Kesemua kandungan lain dalam repositori ini dan laman web yang dijana daripada repositori ini diterbitkan di bawah lesen MIT.
+
+
+## Rujukan
+
+1. {: #ref1} Report for Malaysia's Internationalized Domain Name: Jawi Language Issues, ms 13. Diambil daripada http://css.escwa.org.lb/ictd/0960/01.pdf melalui https://www.unescwa.org/events/global-harmonization-arabic-script-use-domain-names-4th-meeting
+2. {: #ref2} Daftar Kata Bahasa Melayu - Sebutan Jawi Jilid 1 (A-K), ms 117-118. Dewan Bahasa dan Pustaka.
+3. {: #ref3} Daftar Kata Bahasa Melayu - Sebutan Jawi Jilid 2 (L-Z), ms 1551. Dewan Bahasa dan Pustaka.
+4. {: #ref4} Daftar Kata Bahasa Melayu - Sebutan Jawi Jilid 2 (L-Z), ms 947. Dewan Bahasa dan Pustaka.
+5. {: #ref5} Report for Malaysia's Internationalized Domain Name: Jawi Language Issues, ms 5. Diambil daripada http://css.escwa.org.lb/ictd/0960/01.pdf melalui https://www.unescwa.org/events/global-harmonization-arabic-script-use-domain-names-4th-meeting
+6. {: #ref6} Submit Jawi charcter to IANA - final, ms 3. Diambil daripada https://www.iana.org/domains/idn-tables/tables/my_ms-my_1.0.pdf
+7. {: #ref7} Daftar Kata Bahasa Melayu - Sebutan Jawi Jilid 1 (A-K), ms 83. Dewan Bahasa dan Pustaka.
+8. {: #ref8} Linguistic Diversity in the Internet Root: The Case of the Arabic Script and Jawi. Diambil daripada https://www.icann.org/news/blog/linguistic-diversity-in-the-internet-root-the-case-of-the-arabic-script-and-jawi

@@ -76,15 +76,6 @@ The glyphs that I edit to make it support Jawi alphabet:
 - Add glyph for Jawi letter GA (ݢ) at U+0762, known in Unicode as Arabic Letter Keheh with Dot Above, used in Malay for the sound /g/.
 - Add glyph for Jawi letter VA (ۏ) at U+06CF, known in Unicode as Arabic Letter Waw with Dot Above, used in Malay for the sound /v/.
 - Add glyph for Jawi letter NYA (ڽ) at U+06BD, known in Unicode as Arabic Letter Noon with Three Dots Above, used in Malay for the sound /ɲ/.
-- Changing the glyph for Arabic hamza (ء) at U+0621 to Jawi letter three quarter hamzah.
-  - Majority of digital users of Jawi alphabet uses U+0621 for three quarter hamzah as it is what most keyboard have even though it is not actual character for Jawi letter three quarter hamzah, which doesn't exist in Unicode.
-  - The three quarter positioning is sometimes emulated by putting U+0621 in superscript, but that only work in program that support superscripting non-superscript letters. The position is sometimes higher than expected and appears smaller in size when superscripted, which is different from what we actually use in Malay.
-  - Jawi three quarter hamzah is not supported in any known fonts. 
-  - In real life handwriting, all Jawi users write the three quarter hamzah the correct way, which is different from Arabic hamza.
-  - The edited font make Jawi letter three quarter hamzah displayed by default in place of Arabic hamza, and Arabic hamza will be displayed instead only if language is Arabic. This makes it display Jawi three quarter hamzah by default when no language is specified, useful for older programs to display Jawi.
-  - Jawi three quarter hamzah looked like this:<br />![jawi¾hamzah](img/github/jawi¾hamzah.png).
-- Point glyph of Arabic high hamza (ٴ) at U+0674 to Arabic hamza U+0621 after the change of glyph from Arabic hamza to Jawi three quarter hamzah.
-  - Some minority people used U+0674 for three quarter high hamza as it looked more similar to Jawi hamzah compared to U+0621, but the character is supposed to be part of diphtong and positioned with another vowel in other languages, unlike in Jawi where three quarter hamzah is a standalone letter.
 - Add glyph for Jawi old letter GA (ڬ) at U+06AC, known in Unicode as Arabic Letter Kaf with Dot Above, formerly used in Malay for the sound /g/ when Arabic Letter Keheh with Dot Above (ݢ) at U+0762 was not accessible on keyboard.
   - Glyph is for compatibility purposes.
   - In real life handwriting, ڬ was never used in old writing, and it is not used unless for stylistic choice in new writing or used by mistake by people who learnt Jawi using digital tools created in those time when ݢ is not accessible on keyboard, it should always be ݢ in actual writing.
@@ -93,25 +84,40 @@ The glyphs that I edit to make it support Jawi alphabet:
   - To ensure it still work as normal tilde outside of Jawi, only variant or joiner will be added instead of completely replacing the glyph.
   - If there is Jawi letter before or after the tilde, Jawi tilde will be displayed. Otherwise, normal tilde will be displayed.
 
+
+The different hamza variations will also be added for compatibility reasons, related works including:
+
+- Changing the glyph of Arabic high hamza (ٴ) at U+0674 to Jawi three quarter hamza.
+  - Jawi three quarter hamza does not exist in Unicode,<sup>[[5]](#ref5)[[6]](#ref6)[[8]](#ref8)</sup> so this is a workaround.
+  - Some people used U+0621 for three quarter hamza replacing the Arabic hamza but that is wrong as Malay uses both version and altering that would now make it hard to be distinguished.
+  - Three quarter hamza is used in Malay native words<sup>[[7]](#ref7)</sup> whereas Arabic hamza is used for Arabic loanwords in Malay sentence, they are not interchangeable.
+  - Jawi three quarter hamzah looked like this:<br />![jawi¾hamzah](img/github/jawi¾hamzah.png).
+- Keep the glyph of Arabic Hamza at U+0621 as it is used for Arabic loanwords in Malay sentences.
+- Add glyph for Jawi letter ALIF WITH HAMZAH (أ) at U+0623, known in Unicode as Arabic Letter Alef with Hamza Above.
+  - Used with prefix di-, se-, and ke- in Malay language. Example: دأسه (diasah) which is د *di-* (prefix for turning sentence into passive form) combined with اسه *asah*.<sup>[[1]](#ref1)[[2]](#ref2)</sup>
+  - Used as a part of diphtongs that can't be used with standalone three quarter hamzah nor without any hamzah. Example: أيمن (aiman) is different from ا<sup>ء</sup>يمن (a'iman) and ايمن (iman).
+  - See image version below <br/> ![aiman](img/github/aiman.png)
+- Add glyph for non-Jawi letter known in Unicode as Arabic Letter Alef with Hamza Below at U+0625.
+  - Used in Arabic loanwords in Malay sentences. Example: وإما (waimma).<sup>[[1]](#ref1)[[3]](#ref3)</sup>
+- Add glyph for non-Jawi letter known in Unicode as Arabic Letter Yeh with Hamza Above (ئ) at U+0626.
+  - Used in Arabic loanwords in Malay sentences. Example: ملائکة (malaikat)<sup>[[1]](#ref1)[[4]](#ref4)</sup>.
+  - Incidentally, this was used in old Jawi as the diphtongs /ai/ and /ae/ (both are now written as أي), and the sound /iʔ/ and /eʔ/ (both are now written as يء).
+  - Still in used as part of the Malay family name Nik (نئ) such as [Nik Abdul Aziz](https://en.wikipedia.org/wiki/Nik_Abdul_Aziz_Nik_Mat) (نئ عبدالعزيز).
+
+
 Some Arabic fonts had even less glyph coverage and those need more works to do including:
 
 - Add glyph for Jawi letter CA (چ) at U+0686, known in Unicode as Arabic Letter Tcheh, used in Malay for the sound /t͡ʃ/.
 - Add glyph for Jawi letter PA (ڤ) at U+06A4, known in Unicode as Arabic Letter Veh, used in Malay for the sound /p/.
 - Add glyph for Jawi letter KAF (ک) at U+06A9, known in Unicode as Arabic Letter Keheh, used in Malay for the sound /k/.
 - Add glyph for Jawi letter YE (ى) at U+0649, known in Unicode as Arabic Letter Alef Maksura, used in Malay for the final sound /ə/.
-- Add glyph for Jawi letter ALIF WITH HAMZAH (أ) at U+0623, known in Unicode as Arabic Letter Alef with Hamza Above, used as a part of diphtongs that can't be used with standalone three quarter hamzah nor without any hamzah. Example: أيمن (aiman) is different from اءيمن (a'iman) and ايمن (iman).
-  - See image version below <br/> ![aiman](img/github/aiman.png)
-- Add glyph for Jawi Opening Quotation Mark (”) at U+201D, known in Unicode as Right Double Quotation Mark.
-- Add glyph for Jawi Closing Quotation Mark (‟) at U+201F, known in Unicode as Double High-Reversed-9 Quotation Mark.
-- Add glyph for Jawi Opening Single Quotation Mark (’) at U+2019, known in Unicode as Right Single Quotation Mark.
-- Add glyph for Jawi Closing Single Quotation Mark (‛) at U+201B, known in Unicode as Single High-Reversed-9 Quotation Mark.
+- Add glyph for Jawi Opening Quotation Mark (‟) at U+201F, known in Unicode as Double High-Reversed-9 Quotation Mark.
+- Add glyph for Jawi Closing Quotation Mark (”) at U+201D, known in Unicode as Right Double Quotation Mark.
+- Add glyph for Jawi Opening Single Quotation Mark (‛) at U+201B, known in Unicode as Single High-Reversed-9 Quotation Mark.
+- Add glyph for Jawi Closing Single Quotation Mark (’) at U+2019, known in Unicode as Right Single Quotation Mark.
 
 For compatibility reason, a few more glyphs will also be checked and added if they don't exist:
 
-- Add glyph for non-Jawi letter known in Unicode as Arabic Letter Yeh with Hamza Above (ئ) at U+0626.
-  - Glyph added for compatibility reason.
-  - This was used in old Jawi as the diphtongs /ai/ and /ae/ (both are now written as أي), and the sound /iʔ/ and /eʔ/ (both are now written as يء).
-  - Still in used as part of the Malay family name Nik (نئ) such as [Nik Abdul Aziz](https://en.wikipedia.org/wiki/Nik_Abdul_Aziz_Nik_Mat) (نئ عبدالعزيز).
 - Add glyph for non-Jawi letter known in Unicode as Arabic Letter Waw with Hamza Above (ؤ) at U+0624.
   - Glyph added for compatibility reason.
   - This was used in old Jawi as the diphtongs /ao/ and /au/ (both are now written as أو) and the sounds /uʔ/ and /oʔ/ (both are now written as وء).
@@ -155,3 +161,15 @@ All edited font files and the generated FontForge files are licensed the same as
 The website theme is temporarily [Midnight](https://github.com/mattgraham/midnight) by [mattgraham](https://mobile.twitter.com/mattgraham) available under MIT.
 
 All other contents in the repository and corresponding website generated from the repository are released under The MIT License.
+
+
+## References
+
+1. {: #ref1} Report for Malaysia's Internationalized Domain Name: Jawi Language Issues, page 13. Retrieved from http://css.escwa.org.lb/ictd/0960/01.pdf via https://www.unescwa.org/events/global-harmonization-arabic-script-use-domain-names-4th-meeting
+2. {: #ref2} Daftar Kata Bahasa Melayu - Sebutan Jawi Jilid 1 (A-K), page 117-118. Dewan Bahasa dan Pustaka.
+3. {: #ref3} Daftar Kata Bahasa Melayu - Sebutan Jawi Jilid 2 (L-Z), page 1551. Dewan Bahasa dan Pustaka.
+4. {: #ref4} Daftar Kata Bahasa Melayu - Sebutan Jawi Jilid 2 (L-Z), page 947. Dewan Bahasa dan Pustaka.
+5. {: #ref5} Report for Malaysia's Internationalized Domain Name: Jawi Language Issues, page 5. Retrieved from http://css.escwa.org.lb/ictd/0960/01.pdf via https://www.unescwa.org/events/global-harmonization-arabic-script-use-domain-names-4th-meeting
+6. {: #ref6} Submit Jawi charcter to IANA - final, page 3. Retrieved from https://www.iana.org/domains/idn-tables/tables/my_ms-my_1.0.pdf
+7. {: #ref7} Daftar Kata Bahasa Melayu - Sebutan Jawi Jilid 1 (A-K), page 83. Dewan Bahasa dan Pustaka.
+8. {: #ref8} Linguistic Diversity in the Internet Root: The Case of the Arabic Script and Jawi. Retrieved from https://www.icann.org/news/blog/linguistic-diversity-in-the-internet-root-the-case-of-the-arabic-script-and-jawi

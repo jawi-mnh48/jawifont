@@ -165,19 +165,11 @@ Kesemua kandungan lain dalam repositori ini dan laman web yang dijana daripada r
 
 ## Rujukan
 
-1. Report for Malaysia's Internationalized Domain Name: Jawi Language Issues, ms 13. Diambil daripada http://css.escwa.org.lb/ictd/0960/01.pdf melalui https://www.unescwa.org/events/global-harmonization-arabic-script-use-domain-names-4th-meeting
-{: #ref1}
-2. Daftar Kata Bahasa Melayu - Sebutan Jawi Jilid 1 (A-K), ms 117-118. Dewan Bahasa dan Pustaka.
-{: #ref2}
-3. Daftar Kata Bahasa Melayu - Sebutan Jawi Jilid 2 (L-Z), ms 1551. Dewan Bahasa dan Pustaka.
-{: #ref3}
-4. Daftar Kata Bahasa Melayu - Sebutan Jawi Jilid 2 (L-Z), ms 947. Dewan Bahasa dan Pustaka.
-{: #ref4}
-5. Report for Malaysia's Internationalized Domain Name: Jawi Language Issues, ms 5. Diambil daripada http://css.escwa.org.lb/ictd/0960/01.pdf melalui https://www.unescwa.org/events/global-harmonization-arabic-script-use-domain-names-4th-meeting
-{: #ref5}
-6. Submit Jawi charcter to IANA - final, ms 3. Diambil daripada https://www.iana.org/domains/idn-tables/tables/my_ms-my_1.0.pdf
-{: #ref6}
-7. Daftar Kata Bahasa Melayu - Sebutan Jawi Jilid 1 (A-K), ms 83. Dewan Bahasa dan Pustaka.
-{: #ref7}
-8. Linguistic Diversity in the Internet Root: The Case of the Arabic Script and Jawi. Diambil daripada https://www.icann.org/news/blog/linguistic-diversity-in-the-internet-root-the-case-of-the-arabic-script-and-jawi
-{: #ref8}
+1. Report for Malaysia's Internationalized Domain Name: Jawi Language Issues, ms 13. Diambil daripada http://css.escwa.org.lb/ictd/0960/01.pdf melalui https://www.unescwa.org/events/global-harmonization-arabic-script-use-domain-names-4th-meeting <span id="ref1">↵</span>
+2. Daftar Kata Bahasa Melayu - Sebutan Jawi Jilid 1 (A-K), ms 117-118. Dewan Bahasa dan Pustaka. <span id="ref2">↵</span>
+3. Daftar Kata Bahasa Melayu - Sebutan Jawi Jilid 2 (L-Z), ms 1551. Dewan Bahasa dan Pustaka. <span id="ref3">↵</span>
+4. Daftar Kata Bahasa Melayu - Sebutan Jawi Jilid 2 (L-Z), ms 947. Dewan Bahasa dan Pustaka. <span id="ref4">↵</span>
+5. Report for Malaysia's Internationalized Domain Name: Jawi Language Issues, ms 5. Diambil daripada http://css.escwa.org.lb/ictd/0960/01.pdf melalui https://www.unescwa.org/events/global-harmonization-arabic-script-use-domain-names-4th-meeting <span id="ref5">↵</span>
+6. Submit Jawi charcter to IANA - final, ms 3. Diambil daripada https://www.iana.org/domains/idn-tables/tables/my_ms-my_1.0.pdf <span id="ref6">↵</span>
+7. Daftar Kata Bahasa Melayu - Sebutan Jawi Jilid 1 (A-K), ms 83. Dewan Bahasa dan Pustaka. <span id="ref7">↵</span>
+8. Linguistic Diversity in the Internet Root: The Case of the Arabic Script and Jawi. Diambil daripada https://www.icann.org/news/blog/linguistic-diversity-in-the-internet-root-the-case-of-the-arabic-script-and-jawi <span id="ref8">↵</span>

@@ -663,6 +663,13 @@ Listed here are the punctuation marks in Jawi as currently in used as part of Ma
       <th>Unicode<br />Name</th>
       <th>Usage</th>
     </tr>
+    <tr id="letter-hamzah-tiga-suku">
+      <td><span lang="ms-Arab">ٴ</span></td>
+      <td>Hamzah Tiga Suku</td>
+      <td>U+0674</td>
+      <td>Arabic Letter High Hamza</td>
+      <td>Has multiple different usages.</td>
+    </tr>
     <tr>
       <td><span lang="ms-Arab">.</span></td>
       <td>Noktah / Tanda Titik</td>
@@ -891,28 +898,22 @@ Listed here are the letters used as part of Malay language, formerly and current
       <td>Used in old Malay as alternative to letter Ga (ݢ).<br />Obsolete, please properly use <a href="#letter-ga">Jawi Letter Ga</a> instead.</td>
     </tr>
     <tr>
-      <td><span lang="ms-Arab">ٴ</span></td>
-      <td>U+0674</td>
-      <td>Arabic Letter High Hamza</td>
-      <td>Used in place of Jawi Hamzah (ء) if<br />the system does support the actual letter.<br />Otherwise, use <a href="#letter-hamzah">Jawi Letter Hamzah</a> instead.</td>
-    </tr>
-    <tr>
       <td><span lang="ms-Arab">أ</span></td>
       <td>U+0623</td>
       <td>Arabic Letter Alef<br />with Hamza Above</td>
-      <td>Used in certain situation when standalone<br />Jawi Hamzah (ء) would cause confusion.<br />Otherwise, use <a href="#letter-hamzah">Jawi Letter Hamzah</a> instead.</td>
+      <td>Used in certain situation when standalone<br />Jawi Hamzah (ء) or Hamzah Tiga Suku (ٴ) would cause confusion.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">ئ</span></td>
       <td>U+0626</td>
       <td>Arabic Letter Yeh<br />with Hamza Above</td>
-      <td>Currently only used in family name.<br />Formerly also used for certain Malay sounds but those are obsolete,<br />use combination of <a href="#letter-hamzah">Jawi Letter Hamzah</a> and <a href="#letter-ya">Jawi Letter Ya</a><br />instead with position determined based on the sound needed.</td>
+      <td>Currently only used in family name.<br />Formerly also used for certain Malay sounds but those are obsolete,<br />use combination of <a href="#letter-hamzah-tiga-suku">Jawi Letter Hamzah Tiga Suku</a> and <a href="#letter-ya">Jawi Letter Ya</a><br />instead with position determined based on the sound needed.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">ؤ</span></td>
       <td>U+0624</td>
       <td>Arabic Letter Waw<br />with Hamza Above</td>
-      <td>Formerly used for certain Malay sounds but those are obsolete,<br />use combination of <a href="#letter-hamzah">Jawi Letter Hamzah</a> and <a href="#letter-wau">Jawi Letter Wau</a><br />instead with position determined based on the sound needed.</td>
+      <td>Formerly used for certain Malay sounds but those are obsolete,<br />use combination of <a href="#letter-hamzah-tiga-suku">Jawi Letter Hamzah Tiga Suku</a> and <a href="#letter-wau">Jawi Letter Wau</a><br />instead with position determined based on the sound needed.</td>
     </tr>
     <tr>
       <td><span lang="ms-Arab">ڎ</span></td>

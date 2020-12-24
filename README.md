@@ -24,16 +24,29 @@ The repository was created on 30 May 2020 (UTF+8).
 
 ## Where are the font editing being done?
 
-The fonts are edited on FontForge running on Ubuntu instance via UserLAnd app on my phone. I don't currently have access to any desktop device and will never have any desktop device unless I get accepted for job to earn enough money to build a desktop.
+Some fonts are edited on FontForge running on Ubuntu instance via UserLAnd app on my phone. Newer fonts are edited on FontForge on computer running either Ubuntu 20.04 LTS or Windows 10 20H2.
 
 
-Technical details:
+Old technical details:
 
 - FontForge version: 11:12 UTC 24-Sep-2017 (latest version available on APT as of 30 May 2020)
 - Ubuntu version: Ubuntu 18.04.4 LTS aarch64 (default installation of Ubuntu on UserLAnd)
 - UserLAnd version: UserLAnd 2.7.2 (latest version available on my Play store as of 30 May 2020)
 - Android version: 8.0.0 (latest version available for this phone as of 30 May 2020)
 - Phone model: Samsung Galaxy S7 Edge (SM-G935F), handed to me from my aunt in December 2019 (before that, I've been using Sony Xperia C5 Ultra Dual from 2014, it finally ended its life in March 2020, unable to boot anymore)
+
+
+New technical details:
+
+- FontForge version: 20201107 (2020-11-07 21:17 UTC-ML-TtfDb-D-GDK3)
+- Operating system 1: Ubuntu 20.04 LTS amd64
+- Operating system 2: Windows 10 20H2 (19042.685)
+- Central processing unit: Intel® Core™ i5-4570 CPU @ 3.20GHz
+- Memory: 8.0 GB DDR3 1600 MHz DIMM
+- Graphical processing unit: Intel® HD Graphics 4600
+- Internet hardware 1: Realtek RTL8192EE Wireless LAN 802.11n PCI-E NIC
+- Internet connection: Maxis Hotlink Prepaid Unlimited
+- Internet subscription: Unlimited internet and calls (6Mbps) 30-day @ RM 45.00 + Hotspot @ RM 5.00 (renewed every half month because the fair usage quota of 50GB will be used up on half month)
 
 
 ## Who maintain these edited fonts?
@@ -52,26 +65,10 @@ By following the steps in the tutorial titled "[Adding Glyphs to an Arabic Font]
 
 The glyphs that I edit to make it support Jawi alphabet:
 
-- Changing Arabic comma (،) at U+060C to Jawi comma.
-  - Majority of digital users of Jawi alphabet uses U+060C for comma as it is what most keyboard have even though it is not actual character for Jawi comma, which doesn't exist in Unicode.
-  - On some program and font, Jawi comma is displayed in place of Arabic comma when the program tells the font about the language used in the specified text being Malay, but not all programs or fonts supported this.
-    - Known supported fonts are Calibri and Amiri.
-    - Known supported programs are Microsoft Office and LibreOffice 6.1+, with limited support in GIMP.
-  - In real life handwriting, all Jawi users write the comma the correct way, which is different from Arabic comma.
-  - The edited font reversed this, so default would be Jawi comma, and Arabic comma will be displayed instead only if language is Arabic. This makes it display Jawi comma by default when no language is specified, useful for older programs to display Jawi.
-  - Jawi comma looked like this: <br /> ![jawicomma](img/github/jawicomma.png).
-- Point glyph of Reversed comma (⹁) at U+2E41 to Arabic comma U+060C after the change of glyph from Arabic comma to Jawi comma.
-  - Some minority people used U+2E41 for comma as it looked more similar to Jawi comma compared to U+060C, but the character being outside Arabic block made some programs broke.
-- Changing Arabic semicolon (؛) at U+061B to Jawi semicolon.
-  - Majority of digital users of Jawi alphabet uses U+061B for semicolon as it is what most keyboard have even though it is not actual character for Jawi semicolon, which doesn't exist in Unicode.
-  - On some program and font, Jawi semicolon is displayed in place of Arabic semicolon when the program tells the font about the language used in the specified text being Malay, but not all programs or fonts supported this.
-    - Known supported fonts are Calibri and Amiri.
-    - Known supported programs are Microsoft Office and LibreOffice 6.1+, with limited support in GIMP.
-  - In real life handwriting, all Jawi users write the semicolon the correct way, which is different from Arabic semicolon.
-  - The edited font reversed this, so default would be Jawi semicolon, and Arabic semicolon will be displayed instead only if language is Arabic. This makes it display Jawi semicolon by default when no language is specified, useful for older programs to display Jawi.
-  - Jawi semicolon looked like this: <br /> ![jawisemicolon](img/github/jawisemicolon.png).
-- Point glyph of Reversed semicolon (⁏) at U+204F to Arabic semicolon U+061B after the change of glyph from Arabic semicolon to Jawi semicolon.
-  - Some minority people used U+204F for semicolon as it looked more similar to Jawi semicolon compared to U+061B, but the character being outside Arabic block made some programs broke.
+- Add glyph for Reversed comma (⹁) at U+2E41, this is the Jawi comma.
+  - Some people used Arabic Comma at U+060C because of various reasons and that will not be changed, if people want to display Jawi comma then they should change to U+2E41.
+- Add glyph for Reversed semicolon (⁏) at U+204F, this is the Jawi semicolon.
+  - Some people used Arabic Semicolon at U+061B because of various reasons and that will not be changed, if people want to display Jawi semicolon then they should change to U+204F.
 - Add glyph for Jawi letter NGA (ڠ) at U+06A0, known in Unicode as Arabic Letter Ain with Three Dots Above, used in Malay for the sound /ŋ/.
 - Add glyph for Jawi letter GA (ݢ) at U+0762, known in Unicode as Arabic Letter Keheh with Dot Above, used in Malay for the sound /g/.
 - Add glyph for Jawi letter VA (ۏ) at U+06CF, known in Unicode as Arabic Letter Waw with Dot Above, used in Malay for the sound /v/.
@@ -80,9 +77,8 @@ The glyphs that I edit to make it support Jawi alphabet:
   - Glyph is for compatibility purposes.
   - In real life handwriting, ڬ was never used in old writing, and it is not used unless for stylistic choice in new writing or used by mistake by people who learnt Jawi using digital tools created in those time when ݢ is not accessible on keyboard, it should always be ݢ in actual writing.
   - ڬ is not formally recognized as a letter in Malay.
-- Add glyph for Jawi Tilde (~) at U+007E, known in Unicode as Tilde, used in Malay to denote elongated sound or act as subtitution marker.
-  - To ensure it still work as normal tilde outside of Jawi, only variant or joiner will be added instead of completely replacing the glyph.
-  - If there is Jawi letter before or after the tilde, Jawi tilde will be displayed. Otherwise, normal tilde will be displayed.
+- Add glyph for Jawi Tilde (∽) at U+223D, known in Unicode as Reversed Tilde, used in Malay to denote elongated sound or act as subtitution marker.
+  - Some people used Tilde at U+007E because of various reasons and that will not be changed, if people want to display Jawi tilde then they should change to U+223D.
 
 
 The different hamza variations will also be added for compatibility reasons, related works including:
@@ -95,13 +91,13 @@ The different hamza variations will also be added for compatibility reasons, rel
 - Keep the glyph of Arabic Hamza at U+0621 as it is used for Arabic loanwords in Malay sentences.
 - Add glyph for Jawi letter ALIF WITH HAMZAH (أ) at U+0623, known in Unicode as Arabic Letter Alef with Hamza Above.
   - Used with prefix di-, se-, and ke- in Malay language. Example: دأسه (diasah) which is د *di-* (prefix for turning sentence into passive form) combined with اسه *asah*.<sup>[[1]](#ref1)[[2]](#ref2)</sup>
-  - Used as a part of diphtongs that can't be used with standalone three quarter hamzah nor without any hamzah. Example: أيمن (aiman) is different from ا<sup>ء</sup>يمن (a'iman) and ايمن (iman).
+  - Used as a part of diphtongs that can't be used with standalone three quarter hamzah nor without any hamzah. Example: أيمن (aiman) is different from اٴيمن (a'iman), اءيمن (a‘iman), اعيمن (a'eman) and ايمن (iman).
   - See image version below <br/> ![aiman](img/github/aiman.png)
 - Add glyph for non-Jawi letter known in Unicode as Arabic Letter Alef with Hamza Below at U+0625.
   - Used in Arabic loanwords in Malay sentences. Example: وإما (waimma).<sup>[[1]](#ref1)[[3]](#ref3)</sup>
 - Add glyph for non-Jawi letter known in Unicode as Arabic Letter Yeh with Hamza Above (ئ) at U+0626.
   - Used in Arabic loanwords in Malay sentences. Example: ملائکة (malaikat)<sup>[[1]](#ref1)[[4]](#ref4)</sup>.
-  - Incidentally, this was used in old Jawi as the diphtongs /ai/ and /ae/ (both are now written as أي), and the sound /iʔ/ and /eʔ/ (both are now written as يء).
+  - Incidentally, this was used in old Jawi as the diphtongs /ai/ and /ae/ (both are now written as أي or اٴي), and the sound /iʔ/ and /eʔ/ (both are now written as يٴ).
   - Still in used as part of the Malay family name Nik (نئ) such as [Nik Abdul Aziz](https://en.wikipedia.org/wiki/Nik_Abdul_Aziz_Nik_Mat) (نئ عبدالعزيز).
 
 
@@ -120,7 +116,7 @@ For compatibility reason, a few more glyphs will also be checked and added if th
 
 - Add glyph for non-Jawi letter known in Unicode as Arabic Letter Waw with Hamza Above (ؤ) at U+0624.
   - Glyph added for compatibility reason.
-  - This was used in old Jawi as the diphtongs /ao/ and /au/ (both are now written as أو) and the sounds /uʔ/ and /oʔ/ (both are now written as وء).
+  - This was used in old Jawi as the diphtongs /ao/ and /au/ (both are now written as أو or اٴو) and the sounds /uʔ/ and /oʔ/ (both are now written as وٴ).
 - Add glyph for non-Jawi letter known in Unicode as Arabic Letter Dul (ڎ) at U+068E.
   - Glyph added for compatibility reason.
   - This was used in some area to spell Sundanese and Javanese words in Malay.
@@ -137,10 +133,6 @@ For compatibility reason, a few more glyphs will also be checked and added if th
   - Spelt as G in Rumi, sound like /g/.
   - Currently in use in Pegon script in Indonesia with the name Gaf, Pegon script is based on Jawi.
   - For Jawi users, please use the proper letter Ga at U+0762 (ݢ) instead of this.
-- Add glyph for non-Jawi punctuation mark known in Unicode as Reversed Tilde (∽) at U+223D.
-  - Glyph added for compatibility reason.
-  - Some minority people used U+223D for tilde as it looked more similar to Jawi tilde compared to U+007E, but the character is supposed to be part of mathematical operation instead of punctuation.
-  - U+007E will have the glyph from U+223D as a variant and joiner so it show up correctly when used in Jawi.
 
 All other letters should already exist in common Arabic fonts, including one deprecated letter:
 - Jawi letter OLD KAF (ك) at U+0643, known in Unicode as Arabic Letter Kaf, formerly used in Malay for the sound /k/ when Arabic Letter Keheh (ک) at U+06A9 was not accessible on keyboard.
